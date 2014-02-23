@@ -1,3 +1,9 @@
+$("a[href='#top']").click(function(){
+    $('html').animate({scrollTop:0}, 'slow');
+    $('body').animate({scrollTop:0}, 'slow');
+});
+
+
 $(window).scroll(function() {
     var s = $(window).scrollTop(),
     opacityVal=0,
@@ -7,26 +13,26 @@ $(window).scroll(function() {
 
     if ($('#dos3').length) { $('.blurred-img3').css('opacity', s/150); }
 
-    $('#header_nav').stop().animate({
-          backgroundColor: s > 200 ? 'rgba(0, 0, 0, 0.7)' : 'rgba(255, 255, 255, 0)',
-    }, 300);
+    // $('#header_nav').stop().animate({
+    //       backgroundColor: s > 200 ? 'rgba(0, 0, 0, 0.7)' : 'rgba(255, 255, 255, 0)',
+    // }, 300);
 
     if (s>200) {
+        $('#header_nav').stop().animate({backgroundColor: 'rgba(0, 0, 0, 0.7)',}, 600);
         $('ul.menu li:last-child').css('visibility','visible');
-        $('#header_nav').css({
-            'position':'fixed',
-            'top':'0px',
-            'right':'0px',
-            'left':'0px'
-        });
+        $('#header_nav').css({'position':'fixed'});
     } else {
+        
+        $('#header_nav').stop().animate({backgroundColor: 'rgba(255, 255, 255, 0)',}, 1);
         $('ul.menu li:last-child').css('visibility','hidden');
+        $('#header_nav').css({'position':'absolute'});
+
     }
 
 if ($('#dos1').length) {
 
     if ($('#dos1').position().top < $(window).scrollTop() + $(window).height() &&
-    	$('#dos1').position().top + $('#dos1').height() > $(window).scrollTop() ){    
+        $('#dos1').position().top + $('#dos1').height() > $(window).scrollTop() ){    
         
         // This is shift, but it's bug because of screen size
         // $('.img-src').css('background-position', ((s)/4)+'%');
@@ -37,12 +43,6 @@ if ($('#dos1').length) {
 }
 
 
-});
-
-
-
-$('smlogo').hover(function() {
-    
 });
 
 /*! jQuery Color v@2.1.0 http://github.com/jquery/jquery-color | jquery.org/license */

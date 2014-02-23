@@ -17,7 +17,7 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	color: rgba(125,125,125,.5);
+	color: rgba(61, 61, 61, 0.9);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
