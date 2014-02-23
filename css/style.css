@@ -128,6 +128,20 @@ textarea {
   visibility:hidden; 
   float:right;
 }
+
+.motto{
+  padding-top: 60px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+
+}
+.undermotto{
+  color: #eee;
+  font-size: 20px;
+
+}
+
 ul.menu { margin-top: 20px;}
 ul.menu li a{
     color: rgba(218,218,218,0.6);
@@ -196,26 +210,26 @@ ul.menu li:hover{
 
 .logo {
 	background: url(../images/logo.png) center no-repeat;
-	width: 83px;
-	height: 83px;
+	width: 170px;
+	height: 172px;
 	margin: auto;
 }
-.logo_white {
+.logo_black {
     background: url(../images/logo2.png) center no-repeat;
-    width: 83px;
-    height: 83px;
+  width: 170px;
+  height: 172px;
     margin: auto;
 }
 .mainheader {
 	font-size: 2em;
-	color: #555;
+	color: #000;
 	text-align: center;
 }
 
 .mainheader a:link,
 .mainheader a:visited,
 .mainheader a:active {
-	color: #555;
+	color: #fff;
 	text-decoration: none;
 }
 .mainheader a:hover {
