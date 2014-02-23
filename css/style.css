@@ -84,6 +84,7 @@ textarea {
 
 /* Somepart */
 .img-src3 {
+
     position: absolute;
     background-position: 50%;
     -webkit-background-size: cover;
@@ -93,6 +94,13 @@ textarea {
     top: 2000px;
 
 }
+/*.img-src3_text {
+    position:relative;
+    height: 500px;
+    width: 100%;
+    top: 2000px;
+
+}*/
 
 /* taking over the whole page*/
 .bigscreen_img-src {
@@ -127,6 +135,8 @@ textarea {
 .goingup{
   visibility:hidden; 
   float:right;
+  position: fixed !important;
+  right:10px;
 }
 
 .motto{
@@ -141,6 +151,11 @@ textarea {
   font-size: 20px;
 
 }
+
+
+
+
+
 
 ul.menu { margin-top: 20px;}
 ul.menu li a{
