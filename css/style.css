@@ -253,6 +253,7 @@ ul.menu li:hover{
 ================================================== */
 #section2{
   background-color: #8acfc6;
+  padding-bottom: 5px;
 }
 #section2 h2{
   padding-top: 40px;
@@ -331,8 +332,34 @@ ul.menu li:hover{
   color: #fff;
   text-decoration: none;
   }
+/* #section3
+================================================== */
+#section3{
 
+}
+.title_sec3{
+  margin: 40px 40px;
+  text-align: center;
+}
+.triangle{
+  margin:auto;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 45px 0 45px;
+  border-color: #8acfc6 transparent transparent transparent;
+  line-height: 0px;
+  _border-color: #8acfc6 #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.jake{
+  text-align: center;
 
+  padding-bottom: 30px;
+}
+.jake h1{
+  font-size: 4em;
+}
 /* #post
 ================================================== */
 .timeshow,
