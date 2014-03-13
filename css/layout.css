@@ -37,10 +37,11 @@
 		#section2 h2{font-size: 130%;}
 		#header_nav{ padding: 10px 0 !important;}
 		.logo, .logo_small{ display: none;}
-		.motto{
-		  padding-top: 60px;
-		  font-size: 30px;
-		  width: 100%;
+		.rslides {
+			padding-top: 10px;
+		}
+		.motto, .undermotto{
+			display: none;
 		}
 	}
 
@@ -52,10 +53,6 @@
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		
-		.undermotto{ 
-			background: rgba(0, 0, 0, 0.5); 
-			padding: 10px;
-		}
 	}
 
 
