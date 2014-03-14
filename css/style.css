@@ -578,6 +578,7 @@ ul.menu li:hover{
   border-width: 30px 45px 0 45px;
   border-color: #8acfc6 transparent transparent transparent;
   line-height: 0px;
+  background: url(../images/pattern_w_tools.jpg);
   _border-color: #8acfc6 #000000 #000000 #000000;
   _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
