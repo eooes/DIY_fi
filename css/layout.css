@@ -19,21 +19,42 @@
 
 /* #Page Styles
 ================================================== */
-
+.sec3_warp960middle{
+	width: 900px;
+	margin: auto;
+}
+.sec3_warp960middle2{
+	width: 600px;
+	margin: auto;
+}
 /* #Media Queries
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
+		.sec3_warp960middle{
+			width: 720px;
+		}
+		.sec3_warp960middle2{
+			width: 480px;
+		}
 
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
+		.sec3_warp960middle{
+			width: auto;
+		}
+		.sec3_warp960middle2{
+			width: auto;
+		}
+
 		#section2 h2{font-size: 130%;}
 		#header_nav{ padding: 10px 0 !important;}
 		.logo, .logo_small{ display: none;}

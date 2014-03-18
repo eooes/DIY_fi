@@ -406,16 +406,17 @@ ul.menu li:hover{
 }
 /* #section1_2
 ================================================== */
-#section1_2 {
-  padding: 20px 0;
-}
+
 #section1_2 img{
-  margin: 10px;
+  margin: 30px 15px;
 }
 #section1_2 .container{
   text-align: center;
+  padding: 20px 0;
 }
-
+#section1_2{
+    background: url(../images/contentbg.jpg);
+}
 
 /* #section1_3
 ================================================== */
@@ -564,10 +565,11 @@ ul.menu li:hover{
 /* #section3
 ================================================== */
 #section3{
-
+  background: url(../images/contentbg.jpg);
 }
 .title_sec3{
-  margin: 40px 40px;
+
+  padding: 40px 40px;
   text-align: center;
 }
 .triangle{
@@ -576,9 +578,19 @@ ul.menu li:hover{
   height: 0px;
   border-style: solid;
   border-width: 30px 45px 0 45px;
+  border-color: #f2f2f2 transparent transparent transparent;
+  line-height: 0px;
+  _border-color: #f2f2f2 #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.triangle2{
+  margin:auto;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 45px 0 45px;
   border-color: #8acfc6 transparent transparent transparent;
   line-height: 0px;
-  background: url(../images/pattern_w_tools.jpg);
   _border-color: #8acfc6 #000000 #000000 #000000;
   _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
@@ -623,8 +635,9 @@ ul.menu li:hover{
 ================================================== */
 
 footer {
-	margin-top: 60px !important;
-	margin-bottom: 60px !important;
+  background: url(../images/contentbg.jpg);
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
  	text-align: center;
  }
  footer a{
