@@ -819,3 +819,32 @@ aside .section a.large {
 .f_404_top{
   margin-top: 70px;
 }
+
+
+/* contact
+================================================== */
+.map iframe {
+  border: 5px solid rgba(118, 186, 189, 0.1);
+  margin-bottom: 10px;
+}
+
+.contactus input, .contactus textarea{
+  width: 90% !important;
+  background: #FCFCFC !important;
+}
+.social_contact {
+  padding-left: 30px;
+
+}
+.social_contact span{
+  margin-right: 10px;
+
+}
+.social_contact a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #E5E5E5 !important;
+}
+.social_contact a:hover{
+  color: #8C8C8C !important;
+}
