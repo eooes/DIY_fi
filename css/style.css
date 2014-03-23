@@ -602,7 +602,10 @@ ul.menu li:hover{
 .jake h1{
   font-size: 4em;
 }
-
+#section3  p{
+  color: #555;
+  
+}
 /* #section4
 ================================================== */
 #section4{
@@ -848,3 +851,74 @@ aside .section a.large {
 .social_contact a:hover{
   color: #8C8C8C !important;
 }
+
+
+/* about us
+================================================== */
+.aboutus_arrow{
+  width: 19%;
+  height: 100px;
+  float: left;
+  background-color: #A37194;
+  color: white;
+}
+.aboutus_arrow p {
+  padding-top: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 900;
+}
+.subject1, .op0{
+
+}
+.totaloverall_arrow div:first-child{
+  padding-left: 20px;
+}
+.totaloverall_arrow div:last-child{
+  padding-right: 20px;
+}
+.aboutus_arrow_mid{
+  margin-right: 2px;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 20px solid #A37194;
+  border-bottom: 50px solid transparent;
+}
+
+.diamond-shield {
+  float: left;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #A37194;
+  border-left: 40px solid transparent;
+  position: relative;
+}
+.diamond-shield:after {
+  content: '';
+  position: absolute;
+  left: -40px; top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #A37194;
+  border-left: 40px solid transparent;
+}
+.under_arrow div:first-child{
+  padding-left: 21px;
+  width: 19.15%;
+}
+.under_arrow div:last-child{
+  padding-right: 10px;
+  width: 21.5%;
+  margin-right: 0px;
+}
+.under_arrow p:last-child{
+
+}
+.under_arrow div{
+  background: black;
+  float: left;
+  width: 21.3%;
+  margin-right: 40px;
+}
+

@@ -17,6 +17,11 @@ $( document ).ready(function() {
     });
 
 
+    $( ".test1" ).hover(function(){
+        $( ".subject1" ).css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0});
+    });
+
+
 });
 
 
