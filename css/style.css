@@ -567,6 +567,10 @@ ul.menu li:hover{
 #section3{
   background: url(../images/contentbg.jpg);
 }
+#section3 .jake a{
+    text-decoration: none;
+    color: #4A8A82;
+}
 .title_sec3{
 
   padding: 40px 40px;
@@ -866,6 +870,7 @@ aside .section a.large {
   padding-top: 25px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
+  color: #eee !important;
 }
 .subject1, .op0{
 
@@ -916,7 +921,6 @@ aside .section a.large {
 
 }
 .under_arrow div{
-  background: black;
   float: left;
   width: 21.3%;
   margin-right: 40px;
