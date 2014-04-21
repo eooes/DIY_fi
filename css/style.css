@@ -624,6 +624,9 @@ ul.menu li:hover{
 #section5 blockquote p, #section5 cite{
   color: white !important;
 }
+#section3 .jake p a{
+  color: #727272;
+}
 
 /* #post
 ================================================== */
